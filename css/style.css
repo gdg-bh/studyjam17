@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	margin:0;
+}
+
+
+.home{
+	background: url("../img/bg.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.footer{
+	font-family: 'Roboto', sans-serif;
+	background: url("../img/bg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    height: 70%;
+    width: auto;
+
+}
+
+.info{
+	text-align: center;
+	color: white;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #9E9E9E;
+}
+
+p.span{
+	font-weight: 600;
+}
+
+p.nosvemos{
+	font-size: 60px;
+	color: #FED330;
+	text-align: center;
+}
+
+a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #9E9E9E;
+	text-decoration: none;
+}
+
+
+.cr a:hover{
+	font-weight: 600;
+}
+.text a:hover{
+	font-weight: 600;
+}
+
+section{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: #9E9E9E;
+	font-size: 50px;
+}
+
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	line-height: 40px;
+	color: #212121;
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	line-height: 30px;
+	color: #fff;
+}
+
+h4{
+	font-size: 20px;
+	color:#212121;
+}
+
+.quote{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	float: left;
+}
+
+.inscricao{
+	background-color: #FED330;
+}
+
+.programacao{
+	background-color: #eceff1;
+}
+
+.card{
+	background-color: #fff;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.inscricao{
+	background-color: #FED330;
+}
+
+.cr{
+	height: 30px;
+	text-align: center;
+}
+
+.speaker{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.col-1{
+	width: 20%;
+	float: left
+}
+
+.col-2{
+	width: 80%;
+	float: left;
+}
+
+
+@media screen and (max-width: 900px) {
+   
+   .col-1{
+	width: 100%;
+	float: left
+}
+
+.col-2{
+	width: 100%;
+	float: left;
+}
+
+.mdc-button{
+	width: 100%;
+	height: auto;
+}
+
+}
+
+
+
