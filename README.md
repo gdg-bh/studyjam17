@@ -1,3 +1,3 @@
-# ioextended17
+# studyjam17
 
-Site para o I/O extended
+Site para o Android Study Jam - Season 2017
